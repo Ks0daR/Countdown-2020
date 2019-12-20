@@ -1,0 +1,19 @@
+.timer{
+    display: flex;
+}
+
+.timer #day:before{
+    content: 'Дней';
+}
+
+.timer #hour:before{
+    content: 'Часов';
+}
+
+.timer #minute:before{
+    content: 'Минут';
+}
+
+.timer #second:before{
+    content: 'Секунд';
+}
